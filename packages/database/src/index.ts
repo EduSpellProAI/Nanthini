@@ -1,3 +1,8 @@
+export * from './models';
+export * from './repository';
+export * from './firestore';
+export * from './storage';
+
 export function getDatabaseClient() {
-  return 'database-client';
+  return 'firebase-firestore';
 }

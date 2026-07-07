@@ -4,11 +4,12 @@
   "packageManager": "pnpm@9.15.0",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "functions"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
+    "build": "turbo run build --concurrency=1",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck"
   },

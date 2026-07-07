@@ -10,7 +10,13 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@eduspell/analytics": "workspace:*",
+    "@eduspell/lesson-engine": "workspace:*",
+    "@eduspell/quiz-engine": "workspace:*",
+    "@eduspell/reports": "workspace:*",
+    "docx": "^9.5.1",
     "next": "15.3.3",
+    "pdf-lib": "^1.17.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "@eduspell/ui": "workspace:*",

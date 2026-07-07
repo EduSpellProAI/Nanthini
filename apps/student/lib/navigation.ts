@@ -4,6 +4,7 @@ export const studentNavItems = [
   { href: '/spelling', label: 'Spelling', icon: '✍️' },
   { href: '/vocabulary', label: 'Vocabulary', icon: '🧠' },
   { href: '/pronunciation', label: 'Pronunciation', icon: '🎧' },
+  { href: '/ai-tutor', label: 'AI Tutor', icon: '💬' },
   { href: '/progress', label: 'Progress', icon: '📈' },
   { href: '/leaderboard', label: 'Leaderboard', icon: '🏆' },
   { href: '/badges', label: 'Badges', icon: '🎖️' },

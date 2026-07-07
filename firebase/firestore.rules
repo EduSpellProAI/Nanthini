@@ -1,0 +1,52 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function hasRole(role) {
+      return isSignedIn() && request.auth.token.role == role;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    match /userProfiles/{uid} {
+      allow read: if isOwner(uid) || hasRole('admin');
+      allow create: if isOwner(uid) || hasRole('admin');
+      allow update: if hasRole('admin');
+      allow delete: if hasRole('admin');
+    }
+
+    match /students/{docId} {
+      allow read: if hasRole('student') || hasRole('teacher') || hasRole('parent') || hasRole('admin');
+      allow write: if hasRole('teacher') || hasRole('admin');
+    }
+
+    match /teachers/{docId} {
+      allow read: if hasRole('teacher') || hasRole('admin');
+      allow write: if hasRole('admin');
+    }
+
+    match /parents/{docId} {
+      allow read: if hasRole('parent') || hasRole('admin');
+      allow write: if hasRole('admin');
+    }
+
+    match /learningProgress/{docId} {
+      allow read: if isSignedIn();
+      allow write: if hasRole('teacher') || hasRole('admin');
+    }
+
+    match /reports/{docId} {
+      allow read: if hasRole('teacher') || hasRole('parent') || hasRole('admin');
+      allow write: if hasRole('teacher') || hasRole('admin');
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "../..",
+    "moduleResolution": "bundler",
+    "noEmit": false,
+    "composite": false
+  },
+  "include": ["src/**/*.ts", "../firebase/src/**/*.ts"]
+}

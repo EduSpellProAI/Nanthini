@@ -7,6 +7,12 @@ export const teacherNavItems = [
   { href: '/homework', label: 'Homework', icon: '📝' },
   { href: '/spelling-challenges', label: 'Spelling', icon: '✍️' },
   { href: '/quiz-creator', label: 'Quiz Creator', icon: '🧠' },
+  { href: '/lesson-planner', label: 'Lesson Planner', icon: '🗂️' },
+  { href: '/worksheet-generator', label: 'Worksheet Generator', icon: '📄' },
+  { href: '/exam-paper-generator', label: 'Exam Paper Generator', icon: '🧾' },
+  { href: '/marking-assistant', label: 'Marking Assistant', icon: '✅' },
+  { href: '/parent-communication-reporting', label: 'Parent Reporting', icon: '👨‍👩‍👧' },
+  { href: '/ai-assistant', label: 'AI Assistant', icon: '🤖' },
   { href: '/reports', label: 'Reports', icon: '📈' },
   { href: '/settings', label: 'Settings', icon: '⚙️' },
 ];

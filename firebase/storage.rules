@@ -1,0 +1,31 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function hasRole(role) {
+      return isSignedIn() && request.auth.token.role == role;
+    }
+
+    match /worksheets/{uid}/{allPaths=**} {
+      allow read: if isSignedIn() && request.auth.uid == uid;
+      allow write: if hasRole('teacher') || hasRole('admin');
+    }
+
+    match /reports/{allPaths=**} {
+      allow read: if hasRole('teacher') || hasRole('parent') || hasRole('admin');
+      allow write: if hasRole('teacher') || hasRole('admin');
+    }
+
+    match /avatars/{uid}/{allPaths=**} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn() && request.auth.uid == uid;
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

@@ -9,6 +9,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@eduspell/ai-core": "workspace:*",
+    "@eduspell/database": "workspace:*",
     "@eduspell/shared": "workspace:*"
   },
   "devDependencies": {

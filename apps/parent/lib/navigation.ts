@@ -9,6 +9,7 @@ export const parentNavItems = [
   { href: '/announcements', label: 'Announcements', icon: '📣' },
   { href: '/calendar', label: 'Calendar', icon: '📅' },
   { href: '/ai-learning-progress', label: 'AI Learning Progress', icon: '🤖' },
+  { href: '/reports', label: 'Reports', icon: '📄' },
   { href: '/rewards', label: 'Rewards', icon: '🎁' },
   { href: '/profile', label: 'Profile', icon: '👤' },
   { href: '/settings', label: 'Settings', icon: '⚙️' },
