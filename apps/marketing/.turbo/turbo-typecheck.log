@@ -1,0 +1,4 @@
+
+> @eduspell/marketing@0.1.0 typecheck /workspaces/Nanthini/apps/marketing
+> tsc -p tsconfig.json --noEmit
+

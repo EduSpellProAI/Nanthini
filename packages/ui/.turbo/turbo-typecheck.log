@@ -1,0 +1,4 @@
+
+> @eduspell/ui@0.1.0 typecheck /workspaces/Nanthini/packages/ui
+> tsc -p tsconfig.json --noEmit
+

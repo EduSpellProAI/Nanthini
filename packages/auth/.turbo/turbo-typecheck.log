@@ -1,0 +1,4 @@
+
+> @eduspell/auth@0.1.0 typecheck /workspaces/Nanthini/packages/auth
+> tsc -p tsconfig.json --noEmit
+

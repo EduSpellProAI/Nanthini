@@ -1,0 +1,4 @@
+
+> @eduspell/parent@0.1.0 typecheck /workspaces/Nanthini/apps/parent
+> tsc -p tsconfig.json --noEmit
+

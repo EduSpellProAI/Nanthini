@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/ai-learning-progress/page": "/ai-learning-progress",
+  "/announcements/page": "/announcements",
+  "/behaviour/page": "/behaviour",
+  "/calendar/page": "/calendar",
+  "/child-progress/page": "/child-progress",
+  "/homework/page": "/homework",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/profile/page": "/profile",
+  "/rewards/page": "/rewards",
+  "/settings/page": "/settings",
+  "/teacher-messages/page": "/teacher-messages",
+  "/attendance/page": "/attendance"
+}

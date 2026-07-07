@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/homework/page": "app/homework/page.js",
+  "/page": "app/page.js",
+  "/quiz-creator/page": "app/quiz-creator/page.js",
+  "/reports/page": "app/reports/page.js",
+  "/spelling-challenges/page": "app/spelling-challenges/page.js",
+  "/students/page": "app/students/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/attendance/page": "app/attendance/page.js",
+  "/classes/page": "app/classes/page.js"
+}

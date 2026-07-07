@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/badges/page": "/badges",
+  "/dashboard/page": "/dashboard",
+  "/leaderboard/page": "/leaderboard",
+  "/profile/page": "/profile",
+  "/page": "/",
+  "/progress/page": "/progress",
+  "/settings/page": "/settings",
+  "/pronunciation/page": "/pronunciation",
+  "/vocabulary/page": "/vocabulary",
+  "/spelling/page": "/spelling"
+}

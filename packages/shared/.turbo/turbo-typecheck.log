@@ -1,0 +1,4 @@
+
+> @eduspell/shared@0.1.0 typecheck /workspaces/Nanthini/packages/shared
+> tsc -p tsconfig.json --noEmit
+

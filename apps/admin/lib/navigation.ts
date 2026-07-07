@@ -1,0 +1,17 @@
+export const adminNavItems = [
+  { href: '/', label: 'Dashboard', icon: '🏠' },
+  { href: '/school-analytics', label: 'School Analytics', icon: '📈' },
+  { href: '/teacher-management', label: 'Teacher Management', icon: '👩‍🏫' },
+  { href: '/student-management', label: 'Student Management', icon: '🎓' },
+  { href: '/parent-management', label: 'Parent Management', icon: '👨‍👩‍👧' },
+  { href: '/class-management', label: 'Class Management', icon: '🏫' },
+  { href: '/attendance-monitoring', label: 'Attendance Monitoring', icon: '✅' },
+  { href: '/ai-performance-analytics', label: 'AI Performance Analytics', icon: '🤖' },
+  { href: '/content-management', label: 'Content Management', icon: '🧠' },
+  { href: '/quiz-management', label: 'Quiz Management', icon: '📝' },
+  { href: '/roles-permissions', label: 'Roles & Permissions', icon: '🔐' },
+  { href: '/notifications', label: 'Notifications', icon: '📣' },
+  { href: '/reports', label: 'Reports', icon: '📊' },
+  { href: '/system-settings', label: 'System Settings', icon: '⚙️' },
+  { href: '/profile', label: 'Profile', icon: '👤' },
+];

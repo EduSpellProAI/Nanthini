@@ -1,0 +1,15 @@
+export const parentNavItems = [
+  { href: '/', label: 'Overview', icon: '🏠' },
+  { href: '/dashboard', label: 'Dashboard', icon: '📊' },
+  { href: '/child-progress', label: 'Child Progress', icon: '📈' },
+  { href: '/homework', label: 'Homework', icon: '📝' },
+  { href: '/attendance', label: 'Attendance', icon: '✅' },
+  { href: '/behaviour', label: 'Behaviour', icon: '🌟' },
+  { href: '/teacher-messages', label: 'Teacher Messages', icon: '💬' },
+  { href: '/announcements', label: 'Announcements', icon: '📣' },
+  { href: '/calendar', label: 'Calendar', icon: '📅' },
+  { href: '/ai-learning-progress', label: 'AI Learning Progress', icon: '🤖' },
+  { href: '/rewards', label: 'Rewards', icon: '🎁' },
+  { href: '/profile', label: 'Profile', icon: '👤' },
+  { href: '/settings', label: 'Settings', icon: '⚙️' },
+];

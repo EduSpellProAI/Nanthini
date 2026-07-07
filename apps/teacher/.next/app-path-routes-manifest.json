@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/dashboard/page": "/dashboard",
+  "/homework/page": "/homework",
+  "/page": "/",
+  "/quiz-creator/page": "/quiz-creator",
+  "/reports/page": "/reports",
+  "/spelling-challenges/page": "/spelling-challenges",
+  "/students/page": "/students",
+  "/settings/page": "/settings",
+  "/attendance/page": "/attendance",
+  "/classes/page": "/classes"
+}

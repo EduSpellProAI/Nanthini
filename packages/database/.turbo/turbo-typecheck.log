@@ -1,0 +1,4 @@
+
+> @eduspell/database@0.1.0 typecheck /workspaces/Nanthini/packages/database
+> tsc -p tsconfig.json --noEmit
+

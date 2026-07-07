@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/ai-learning-progress/page": "app/ai-learning-progress/page.js",
+  "/announcements/page": "app/announcements/page.js",
+  "/behaviour/page": "app/behaviour/page.js",
+  "/calendar/page": "app/calendar/page.js",
+  "/child-progress/page": "app/child-progress/page.js",
+  "/homework/page": "app/homework/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/rewards/page": "app/rewards/page.js",
+  "/settings/page": "app/settings/page.js",
+  "/teacher-messages/page": "app/teacher-messages/page.js",
+  "/attendance/page": "app/attendance/page.js"
+}

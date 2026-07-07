@@ -1,0 +1,91 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/_not-found/page-b8447202094d29f7.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/css/b530ba52bf7b12da.css",
+      "static/chunks/535-52ebc394df95bc1c.js",
+      "static/chunks/app/layout-7a6582646650883a.js"
+    ],
+    "/badges/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/badges/page-767d1ccabb41c5cd.js"
+    ],
+    "/dashboard/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/dashboard/page-7dcb9f10a78647a8.js"
+    ],
+    "/leaderboard/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/leaderboard/page-ee0267542925ad41.js"
+    ],
+    "/profile/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/profile/page-579b8a734fb0edc8.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/535-52ebc394df95bc1c.js",
+      "static/chunks/app/page-4906459f9576f4e4.js"
+    ],
+    "/progress/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/progress/page-66d554edae505944.js"
+    ],
+    "/settings/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/settings/page-3c5052bee6b8dbac.js"
+    ],
+    "/pronunciation/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/pronunciation/page-7606872a45403c8d.js"
+    ],
+    "/vocabulary/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/vocabulary/page-c98fe5d1789c82d9.js"
+    ],
+    "/spelling/page": [
+      "static/chunks/webpack-525105d1633fd2f1.js",
+      "static/chunks/5d64e219-ef3eab6a04792dd1.js",
+      "static/chunks/681-26ef34047e9b1d6e.js",
+      "static/chunks/main-app-daf4199a78e536d1.js",
+      "static/chunks/app/spelling/page-454c0c49432c3256.js"
+    ]
+  }
+}

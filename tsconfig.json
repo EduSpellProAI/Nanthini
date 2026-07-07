@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./apps/student" },
+    { "path": "./apps/teacher" },
+    { "path": "./apps/parent" },
+    { "path": "./apps/admin" },
+    { "path": "./apps/marketing" },
+    { "path": "./packages/ui" },
+    { "path": "./packages/auth" },
+    { "path": "./packages/database" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/config" }
+  ]
+}

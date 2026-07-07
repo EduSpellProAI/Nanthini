@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/features/page": "app/features/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/parents/page": "app/parents/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/schools/page": "app/schools/page.js",
+  "/teachers/page": "app/teachers/page.js",
+  "/students/page": "app/students/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@eduspell/ui": ["packages/ui/src/index.ts"],
+      "@eduspell/auth": ["packages/auth/src/index.ts"],
+      "@eduspell/database": ["packages/database/src/index.ts"],
+      "@eduspell/shared": ["packages/shared/src/index.ts"],
+      "@eduspell/config": ["packages/config/src/index.ts"],
+      "@eduspell/adaptive-learning": ["packages/adaptive-learning/src/index.ts"],
+      "@eduspell/quiz-engine": ["packages/quiz-engine/src/index.ts"],
+      "@eduspell/lesson-engine": ["packages/lesson-engine/src/index.ts"],
+      "@eduspell/speech-engine": ["packages/speech-engine/src/index.ts"],
+      "@eduspell/analytics": ["packages/analytics/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "dist", ".next"]
+}
